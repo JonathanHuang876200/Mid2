@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,16 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-
-
-
-
-
-
-
-
-
 
     public void OnClick1(View view) {
         Button b1 = (Button) findViewById(R.id.one);
@@ -38,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Button b3 = (Button) findViewById(R.id.three);
         Intent intent = new Intent(this, Func3Activity.class);
         startActivityForResult(intent,3);
+        Toast.makeText(this,"特殊功能", Toast.LENGTH_SHORT).show();
     }
     public void OnClick4(View view) {
         Button b4 = (Button) findViewById(R.id.four);
@@ -58,10 +50,12 @@ public class MainActivity extends AppCompatActivity {
         Button b7 = (Button) findViewById(R.id.seven);
         Intent intent = new Intent(this, Func7Activity.class);
         startActivityForResult(intent,7);
+        Toast.makeText(this,"特殊功能", Toast.LENGTH_SHORT).show();
     }
     public void OnClick8(View view) {
         Button b8 = (Button) findViewById(R.id.eight);
         Intent intent = new Intent(this, Func8Activity.class);
         startActivityForResult(intent,8);
+        Toast.makeText(this,"特殊功能", Toast.LENGTH_SHORT).show();
     }
 }

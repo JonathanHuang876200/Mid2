@@ -23,7 +23,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick1"
-        android:text="按鈕１"
+        android:text="功能１"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick2"
-        android:text="按鈕２"
+        android:text="功能２"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toRightOf="@+id/one"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick3"
-        android:text="按鈕３"
+        android:text="功能３"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/one" />
@@ -59,7 +59,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick4"
-        android:text="按鈕４"
+        android:text="功能４"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toRightOf="@+id/three"
         app:layout_constraintTop_toBottomOf="@+id/two" />
@@ -71,7 +71,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick5"
-        android:text="按鈕５"
+        android:text="功能５"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/three" />
@@ -83,7 +83,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick6"
-        android:text="按鈕６"
+        android:text="功能６"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toRightOf="@+id/five"
         app:layout_constraintTop_toBottomOf="@+id/four" />
@@ -95,7 +95,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick7"
-        android:text="按鈕７"
+        android:text="功能７"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/five" />
@@ -107,7 +107,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:onClick="OnClick8"
-        android:text="按鈕８"
+        android:text="功能８"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toRightOf="@+id/seven"
         app:layout_constraintTop_toBottomOf="@+id/six" />
