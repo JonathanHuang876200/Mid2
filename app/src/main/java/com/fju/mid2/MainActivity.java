@@ -18,44 +18,51 @@ public class MainActivity extends AppCompatActivity {
     public void OnClick1(View view) {
         Button b1 = (Button) findViewById(R.id.one);
         Intent intent = new Intent(this, Func1Activity.class);
-        startActivityForResult(intent,1);
+        startActivityForResult(intent, 1);
     }
+
     public void OnClick2(View view) {
         Button b2 = (Button) findViewById(R.id.two);
         Intent intent = new Intent(this, Func2Activity.class);
-        startActivityForResult(intent,2);
+        startActivityForResult(intent, 2);
     }
+
     public void OnClick3(View view) {
         Button b3 = (Button) findViewById(R.id.three);
         Intent intent = new Intent(this, Func3Activity.class);
-        startActivityForResult(intent,3);
-        Toast.makeText(this,"特殊功能", Toast.LENGTH_SHORT).show();
+        startActivityForResult(intent, 3);
+        Toast.makeText(this, "特殊功能", Toast.LENGTH_SHORT).show();
     }
+
     public void OnClick4(View view) {
         Button b4 = (Button) findViewById(R.id.four);
         Intent intent = new Intent(this, Func4Activity.class);
-        startActivityForResult(intent,4);
+        startActivityForResult(intent, 4);
     }
+
     public void OnClick5(View view) {
         Button b5 = (Button) findViewById(R.id.five);
         Intent intent = new Intent(this, Func5Activity.class);
-        startActivityForResult(intent,5);
+        startActivityForResult(intent, 5);
     }
+
     public void OnClick6(View view) {
         Button b6 = (Button) findViewById(R.id.six);
         Intent intent = new Intent(this, Func6Activity.class);
-        startActivityForResult(intent,6);
+        startActivityForResult(intent, 6);
     }
+
     public void OnClick7(View view) {
         Button b7 = (Button) findViewById(R.id.seven);
         Intent intent = new Intent(this, Func7Activity.class);
-        startActivityForResult(intent,7);
-        Toast.makeText(this,"特殊功能", Toast.LENGTH_SHORT).show();
+        startActivityForResult(intent, 7);
+        Toast.makeText(this, "特殊功能", Toast.LENGTH_SHORT).show();
     }
+
     public void OnClick8(View view) {
         Button b8 = (Button) findViewById(R.id.eight);
         Intent intent = new Intent(this, Func8Activity.class);
-        startActivityForResult(intent,8);
-        Toast.makeText(this,"特殊功能", Toast.LENGTH_SHORT).show();
+        startActivityForResult(intent, 8);
+        Toast.makeText(this, "特殊功能", Toast.LENGTH_SHORT).show();
     }
 }
